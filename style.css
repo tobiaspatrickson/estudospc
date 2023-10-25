@@ -39,3 +39,32 @@ nav ul li a {
 nav ul li a:hover {
     color: #ff9900; /* Cor dos links ao passar o mouse */
 }
+<!-- ... seu código HTML existente ... -->
+
+<main>
+    <section class="noticia">
+        <h2>Novo Jogo de Aventura é Lançado</h2>
+        <p>Data: 25 de Outubro de 2023</p>
+        <p>"Aventuras Fantásticas" é um emocionante jogo de aventura em mundo aberto que acaba de ser lançado. Os jogadores podem explorar um vasto reino mágico, lutar contra monstros, completar missões e desvendar segredos épicos. Este é um dos jogos mais aguardados do ano, e os fãs estão entusiasmados com o que ele tem a oferecer.</p>
+        <a class="button" href="#">Leia mais</a>
+    </section>
+
+    <section class="noticia">
+        <h2>Atualização Massiva Chega ao Jogo Mais Popular do Ano</h2>
+        <p>Data: 26 de Outubro de 2023</p>
+        <p>Os desenvolvedores do jogo "Epic Battles" anunciaram uma atualização massiva que trará novos mapas, modos de jogo e uma série de melhorias de qualidade de vida. A comunidade de jogadores está animada com as mudanças e espera que isso mantenha "Epic Battles" como o jogo mais popular do ano.</p>
+        <a class="button" href="#">Leia mais</a>
+    </section>
+
+    <section class="noticia">
+        <h2>Jogo de Estratégia Recebe Nova Expansão</h2>
+        <p>Data: 28 de Outubro de 2023</p>
+        <p>Os amantes de estratégia têm motivos para comemorar, pois "Guerra Tática" acaba de lançar uma expansão empolgante. A expansão introduz novas facções, unidades e desafios estratégicos, aprofundando ainda mais a jogabilidade envolvente do jogo. Os jogadores estão ansiosos para experimentar todas as novas opções estratégicas.</p>
+        <a class="button" href="#">Leia mais</a>
+    </section>
+
+    <!-- Outras notícias fictícias de jogos podem ser adicionadas aqui -->
+
+</main>
+
+<!-- ... seu código HTML existente ... -->
