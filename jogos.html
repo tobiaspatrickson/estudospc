@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notícias de Jogos</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Notícias de Jogos</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Notícias</a></li>
+                <li><a href="#">Análises</a></li>
+                <li><a href="#">Vídeos</a></li>
+                <li><a href="#">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="noticia">
+            <h2>Novo Jogo Lançado</h2>
+            <p>Um emocionante novo jogo foi lançado hoje, deixando os jogadores ansiosos para mergulhar no mundo dos jogos.</p>
+            <a class="button" href="#">Leia mais</a>
+        </section>
+        <section class="noticia">
+            <h2>Atualização Importante</h2>
+            <p>Uma atualização importante para um jogo popular foi anunciada, trazendo novos recursos e melhorias.</p>
+            <a class="button" href="#">Leia mais</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Notícias de Jogos</p>
+    </footer>
+</body>
+</html>
+/* Reset de estilos para remover margens e preenchimentos padrão */
+body, h1, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilizando o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilizando o cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+/* Estilizando a barra de navegação */
+nav {
+    background-color: #333;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+/* Estilizando links ao passar o mouse sobre eles */
+nav ul li a:hover {
+    color: #ff9900;
+}
+
+/* Estilos para o conteúdo do site */
+main {
+    padding: 20px;
+}
+
+.noticia {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.noticia h2 {
+    font-size: 24px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff9900;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #ff6600;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
