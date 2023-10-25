@@ -1,0 +1,64 @@
+/* Reset de estilos para remover margens e preenchimentos padrão */
+body, h1, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilizando o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilizando o cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+/* Estilizando a barra de navegação */
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Estilizando links ao passar o mouse sobre eles */
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para o conteúdo do site (personalize conforme necessário) */
+.content {
+    padding: 20px;
+}
+
+/* Exemplo de estilo para uma seção adicional */
+.section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Outros estilos personalizados podem ser adicionados conforme necessário */
