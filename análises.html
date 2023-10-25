@@ -46,3 +46,26 @@
     </footer>
 </body>
 </html>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    // Função para lidar com o clique no botão "Leia a Análise"
+    function abrirAnalise(numero) {
+        alert("Você clicou no botão 'Leia a Análise' do artigo " + numero);
+        // Você pode redirecionar o usuário para a página de análise ou realizar outras ações aqui.
+    }
+
+    // Atribua a função aos botões usando jQuery
+    $(document).ready(function() {
+        $('#btnLeiaAnalise1').click(function() {
+            abrirAnalise(1);
+        });
+
+        $('#btnLeiaAnalise2').click(function() {
+            abrirAnalise(2);
+        });
+
+        $('#btnLeiaAnalise3').click(function() {
+            abrirAnalise(3);
+        });
+    });
+</script>
