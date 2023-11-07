@@ -1,6 +1,6 @@
 /* Estilizando o cabeçalho */
 header {
-    background-color: #333; /* Cor de fundo do cabeçalho */
+    background-color: #751111; /* Cor de fundo do cabeçalho */
     color: #fff; /* Cor do texto no cabeçalho */
     padding: 20px 0; /* Espaçamento interno no cabeçalho */
     text-align: center; /* Alinhar o texto ao centro */
@@ -13,7 +13,7 @@ header h1 {
 
 /* Estilizando a barra de navegação */
 nav {
-    background-color: #333; /* Cor de fundo da barra de navegação */
+    background-color: #751111; /* Cor de fundo da barra de navegação */
     text-align: center; /* Alinhar o texto ao centro */
 }
 
